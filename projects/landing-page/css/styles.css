@@ -221,3 +221,27 @@ section.your-active-class .landing__container::after {
 		           rotate(-360deg);
 	}
 }
+
+
+/* --------- NavBar Menu ---------- */
+
+.navbar__menu{
+    background-color: rgba(0,13,60,1);
+}
+
+.navbar__menu ul{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar__menu ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+/* --------- Active Section ---------- */
+
+.active-class{
+    border: 2px dashed gray;
+}
